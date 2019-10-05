@@ -18,6 +18,8 @@
 		35A824A8234778EE0017C682 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A824A7234778EE0017C682 /* MovieRow.swift */; };
 		35A824AA23477C150017C682 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A824A923477C150017C682 /* AppView.swift */; };
 		35A824AC23477FB70017C682 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A824AB23477FB70017C682 /* MovieList.swift */; };
+		57687F2F2348485400483EBB /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57687F2E2348485400483EBB /* MovieDetail.swift */; };
+		57687F312348667C00483EBB /* MovieOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57687F302348667C00483EBB /* MovieOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		35A824A7234778EE0017C682 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		35A824A923477C150017C682 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		35A824AB23477FB70017C682 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		57687F2E2348485400483EBB /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		57687F302348667C00483EBB /* MovieOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieOverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				35A824A5234776D10017C682 /* Movie.swift */,
 				35A824A7234778EE0017C682 /* MovieRow.swift */,
 				35A824A923477C150017C682 /* AppView.swift */,
+				57687F2E2348485400483EBB /* MovieDetail.swift */,
+				57687F302348667C00483EBB /* MovieOverview.swift */,
 				35A82495234774D80017C682 /* Assets.xcassets */,
 				35A8249A234774D80017C682 /* LaunchScreen.storyboard */,
 				35A8249D234774D80017C682 /* Info.plist */,
@@ -164,11 +170,13 @@
 				35A824A4234776840017C682 /* MovieData.swift in Sources */,
 				35A8248D234774D70017C682 /* AppDelegate.swift in Sources */,
 				35A8248F234774D70017C682 /* SceneDelegate.swift in Sources */,
+				57687F2F2348485400483EBB /* MovieDetail.swift in Sources */,
 				35A824AA23477C150017C682 /* AppView.swift in Sources */,
 				35A824A8234778EE0017C682 /* MovieRow.swift in Sources */,
 				35A82492234774D70017C682 /* MarvelBook.xcdatamodeld in Sources */,
 				35A824AC23477FB70017C682 /* MovieList.swift in Sources */,
 				35A824A6234776D10017C682 /* Movie.swift in Sources */,
+				57687F312348667C00483EBB /* MovieOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

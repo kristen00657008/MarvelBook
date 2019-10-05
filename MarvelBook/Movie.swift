@@ -9,6 +9,10 @@
 import Foundation
 
 struct Movie {
-    var name: String
-    var year: Int
+    var name: String    
+    var year: String
+    var month: String
+    var day: String
+    var director: String
+    var boxoffice: String
 }

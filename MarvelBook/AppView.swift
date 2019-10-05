@@ -12,11 +12,14 @@ struct AppView: View {
     var body: some View {
         TabView{
             MovieList().tabItem{
-                Image(systemName: "music.house.fill")
+                Image(systemName: "list.bullet")
                 Text("電影列表")
             }
-            
-        }
+            MovieOverview().tabItem{
+                Image(systemName: "book.circle")
+                Text("電影總覽")
+            }
+        }.accentColor(.purple)
     }
 }
 
