@@ -16,7 +16,9 @@ struct MovieRow: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: 80,height: 80)
-                .clipped()
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white,lineWidth: 4))
+                .shadow(radius: 10)
             VStack(alignment: .leading){
                 Text(movie.name)
             }
